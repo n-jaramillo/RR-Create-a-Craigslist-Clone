@@ -3,10 +3,10 @@
   display: grid;
   grid-template-rows: 80px 70px 4fr 4fr;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-template-areas:  "sidebar searchbar searchbar"
-                        "sidebar directory directory"
-                        "sidebar gallery gallery"
-                        "sidebar gallery gallery"
+  grid-template-areas: "sidebar searchbar searchbar"
+    "sidebar directory directory"
+    "sidebar gallery gallery"
+    "sidebar gallery gallery";
 }
 
 img {
@@ -16,17 +16,17 @@ img {
 
 .directory {
   grid-area: directory;
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }
 
 .gallery {
   grid-area: gallery;
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }
 
 .help {
   grid-area: help;
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }
 
 .posting {
@@ -35,16 +35,16 @@ img {
   float: left;
   width: 45%;
   height: 45%;
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }
 
 .searchbar {
   font-size: 5vh;
   grid-area: searchbar;
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }
 
 .sideBar {
   grid-area: sidebar;
-  border: 1px solid black;
+  border: 1px solid lightgray;
 }

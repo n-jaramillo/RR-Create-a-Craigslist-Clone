@@ -1,17 +1,25 @@
 // Import data
+import Sidebar from './Sidebar'
+import Searchbar from './Searchbar';
+import Directory from './Directory';
+import Gallery from './Gallery'
 
 // Import components
 import './App.css';
 
-function App(){
+function App() {
   return (
     <div>
-      <h1>craigslist</h1>
-      <div className="App">
-        {/* Your content will go here! */}
+      <div style={{width: "25%", float: "left"}}>
+        <Sidebar />
+      </div>
+      <div style={{width: "75%", float: "right"}}>
+        <Searchbar />
+        <Directory />
+        <Gallery />
       </div>
     </div>
-  );
+  )
 }
 
 export default App;
